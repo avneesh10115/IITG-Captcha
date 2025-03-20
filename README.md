@@ -21,3 +21,5 @@ An automated captcha solver on the IITG website as a firefox extension
 
 # Example
 ![alt-text](https://github.com/avneesh10115/IITG-Captcha/blob/main/example.gif?raw=true)
+
+Placeholder of the field gets updated with a seemingly wrong answer but it is not the case as the captcha gets updated in only the backend and the updated captcha's response in being displayed in placeholder.
