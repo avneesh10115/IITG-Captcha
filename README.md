@@ -1,6 +1,12 @@
 # IITG-Captcha
 An automated captcha solver on the IITG website as a firefox extension
 
+
+# Demonstration
+![alt-text](https://github.com/avneesh10115/IITG-Captcha/blob/main/example.gif?raw=true)
+
+Placeholder of the field gets updated with a seemingly wrong answer but it is not the case as the captcha gets updated in only the backend and the updated captcha's response in being displayed in placeholder.
+
 # Installation
 
 1) Download the files.
@@ -19,7 +25,3 @@ An automated captcha solver on the IITG website as a firefox extension
 2) Go to the IITG SSO Login Page and enter your login details.
 3) Click on the extension to automatically solve the captcha.
 
-# Example
-![alt-text](https://github.com/avneesh10115/IITG-Captcha/blob/main/example.gif?raw=true)
-
-Placeholder of the field gets updated with a seemingly wrong answer but it is not the case as the captcha gets updated in only the backend and the updated captcha's response in being displayed in placeholder.
