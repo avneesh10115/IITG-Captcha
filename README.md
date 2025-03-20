@@ -8,7 +8,7 @@ An automated captcha solver on the IITG website as a firefox extension
 ![alt-text](https://github.com/avneesh10115/IITG-Captcha/blob/main/img1.jpg?raw=true)
 3) Select the This Firefox option.
 ![alt-text](https://github.com/avneesh10115/IITG-Captcha/blob/main/img2.jpg?raw=true)
-4) Select manifest.json from the downloaded files.
+4) Click Load Temporary Addon and select manifest.json from the downloaded files.
 ![alt-text](https://github.com/avneesh10115/IITG-Captcha/blob/main/img3.jpg?raw=true)
 5) Install the neccessary python dependencies.
 
