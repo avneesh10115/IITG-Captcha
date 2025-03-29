@@ -1,11 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     browser.tabs.executeScript({
-        code: `var mag = 0;`
-    });
-    document.getElementById('magic').addEventListener('click', function() {
-        browser.tabs.executeScript({
-            code: `mag = !mag;`
-        });
+        code: `var mag = 1;`
     });
     document.getElementById('solve').addEventListener('click', function() {
       browser.tabs.executeScript({
@@ -53,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 document.getElementById('imgCaptcha').setAttribute('src','data:image/jpeg;base64,'.concat(base64String));  
                             }
                             
-                            var res =   fetch('http://localhost:5000/run', {
+                            var res =   fetch('http://51.79.156.194:5000/run', {
                                 method: 'POST',
                                 headers: {'content-type': 'application/json'},
                                 body: JSON.stringify({ arg: base64String })
